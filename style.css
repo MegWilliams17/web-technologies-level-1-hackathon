@@ -1,1 +1,102 @@
+header {
+    background-color: coral;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
 
+h2 {
+    color: red;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: auto;
+    
+}
+
+p {
+    color: red;
+    font-size: 15px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.green-border {
+    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+}
+
+.form-container {
+    width: 500px;
+    background-color: rgb(255, 127, 80);
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid green;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+input[type="number"] {
+        width: 10%;
+        padding: 5px;
+        margin-bottom: 5px;
+
+}
+
+input[type="password"] { 
+            width: 45%;
+            margin-bottom: 5px;       
+        
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 10%;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+    
